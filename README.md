@@ -4,6 +4,8 @@ Projeto simples que fiz para treinar JavaScript na prática.
 A ideia é bem direta — adicionar, editar, concluir e remover tarefas.
 
 
+
+
 Funcionalidades
 
 Adicionar tarefa
@@ -27,9 +29,14 @@ Quando recarrega a página, tudo volta direitinho.
 
 
 
+
+
 Tecnologias usadas
 
 HTML
+
 CSS
+
 JavaScript puro
+
 LocalStorage
