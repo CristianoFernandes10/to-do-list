@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    background: linear-gradient(135deg, #93a0bd, #37496e);
+}
+ul{
+    list-style: none
+    
+}
+
+button{
+    border:none;
+}
+
+.container{
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.logo{
+    width:60%;
+    
+}
+
+
+.principal{
+    display: flex;
+    gap:1rem;
+    margin:0 auto 1rem auto;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+  
+}
+#inputTarefa{
+    padding: .5rem;
+    border:none;
+    width: 100% ;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: 1px solid #ffffffa2;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#inputTarefa:hover{
+    box-shadow: 5px 5px 10px rgba(0 0 0 / .1);
+    
+}
+
+#inputTarefa:focus{
+    box-shadow: 5px 5px 10px rgba(0 0 0 / .1);
+    outline: none;
+    
+}
+
+
+
+#inputTarefa::placeholder{
+    color: #ffffffa8;
+    letter-spacing: 1.5px;
+}
+
+#btnTarefa{
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    border:none;
+    background-color: transparent;
+    border:1px solid #fff;
+    color:#fff;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-weight: bolder;
+    filter: drop-shadow(7px 5px 5px rgba(0 0 0 / .4));
+}
+
+#btnTarefa:hover{
+    background-color: #fff;
+    color: cadetblue;
+}
+
+
+
+#msnTarefa{
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+
+
+
+.itemTarefa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    box-shadow: 5px 5px 10px rgba(0 0 0 / .4);
+}
+
+.spanItem{
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    color:#fff;
+    font-weight: bolder;
+    text-overflow:clip;
+}
+
+.inputSpan{
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    
+}
+
+
+.botoes{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+    
+}
+.botoes button{
+    padding: .7rem;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgba(0 0 0 / .3);
+    
+}
+
+.btnEditar{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: .5;
+    cursor:default;
+}
+
+.btnRemove{
+    background-color: red;
+    cursor: pointer;
+}
+.btnConcluida{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+.concluida{
+    color: green;
+    text-decoration: line-through;
+    background-color: rgb(148, 201, 148);
+}
